@@ -93,6 +93,77 @@
             x /= y;  //x = 2, (this is the same as x = x / y;)
             x %= y;  //x = 0, (this is the same as x = x % y;)
         </script>
+<br>
+		<script type="text/javascript">
+			var thirsty = true;
+			var drank = false;
+			if(thirsty == true) //notice the ==
+			{
+				drank = true;
+				document.write(drank);
+			}
+		</script>
+
+<br>
+	<script type="text/javascript">
+		var x = 7
+		if (x>=6 && x<=8)
+			{
+				//Since 7 is greater than 6  and less than 8, this statement would be executed.
+			}
+		if (x==7 || x>=8)
+			{
+				//This if statement says if x is equal to 7 or if x is greater than 8, then execute this statement. While x is not greater than 8, x is equal to 7; therefore it will execute the statement.
+			}
+		if (!(x==6))
+			{
+				//Since x is equal to 7 and we are checking if that statement is false, this statement would be executed.
+			}
+	</script>
+
+<br>
+
+	<script type="text/javascript">
+	var x = 6;
+	if(x == 8)
+	{
+		x++;
+		document.write("if(x = 8) and now x = " + x); //This would not be executed because x is not equal to 8
+	}
+	else if(x == 7)
+	{
+		x = 4;
+		document.write("else if (x = 7) and now x = " + x); //This would not be executed because x is not equal to 7
+	}
+	else
+	{
+		x = 20;
+		document.write("else and now x = " + x); //This would be executed because all other conditionals were not met
+	}
+	</script>
+
+<br>
+
+	<script type="text/javascript">
+	var x = 8;
+	if (x == 8)
+	{
+		x++;
+		document.write("if(x = 8) and now x = " + x); //This statement would be executed because x is equal to 8
+	}
+	if (x == 7)
+	{
+		x = 4
+		document.write("else if (x = 7) and now x = " + x); //This statement would not be executed because x is not equal to 7
+	}
+	else
+	{
+		x = 20;
+		document.write("else and now x = " + x); //This statement would be executed because the other conditionals were not met
+	}
+
+	</script>
+
 
 	</body>
 </html>
